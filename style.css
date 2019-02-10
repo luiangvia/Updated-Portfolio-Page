@@ -1,0 +1,422 @@
+h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: navy;
+    font-weight: 900;
+    color: white;
+    height: auto;
+    float: left;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.navbar {
+    font-size: 1rem;
+    font-family: 'Viga', sans-serif;
+    background: white;
+    padding: 30px 20px 20px 20px;
+    float: right;
+
+
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Amatic SC', cursive;
+    color: red;
+    font-weight: 900;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Amatic SC', cursive;
+    color: blue;
+    font-weight: 900;
+}
+
+
+#indexb {
+    background-color:navy;
+    padding: 14px 16px;
+    border-radius: 50px;
+    color: white;
+    
+}
+
+.headerbox {
+    overflow: auto;
+    background:white;
+    border-radius: 10px;
+    padding: 0px 16px;
+    position: fixed;
+    top: 0;
+    width: 100%
+      
+    
+}
+
+.indexbackground {
+    background: white;
+    margin: 110px 100px 20px 20px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.indexbox {
+    overflow: auto;
+}
+
+.indeximage {
+    width: 200px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.indexbody {
+    font-size: 1.5rem;
+    font-family: inherit;
+}
+
+.portfoliobackground {
+    background: white;
+    padding: 20px;
+    overflow: auto;
+    margin: 110px 200px 30px 30px;
+}
+
+.connectcolumnleft {
+    padding:30px 0px 0px 30px; ;
+    float: left;
+    width: 30%;
+    overflow: auto;
+  }
+  .connectcolumnmiddle {
+    float: left;
+    width: 33.33%;
+    overflow: auto;
+  }
+  .connectcolumnright {
+    float: left;
+    width: 33.33%;
+    overflow: auto;
+  }
+.connectrow{
+    color: white;
+    background:black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.connectrow:after {
+    content: "";
+    display: table;
+    clear: both;
+    overflow: auto;
+    
+  }
+
+.button {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+#Image1 {
+    float: left;
+    width: 250px;
+    margin: 20px 40px 25px;
+}
+
+#Image2 {
+    float: left;
+    width: 274px;
+    margin: 20px 40px 25px;
+}
+
+#Image3 {
+    float: left;
+    width: 274px;
+    margin: 20px 40px 25px;
+}
+
+#Image4 {
+    float: left;
+    width: 274px;
+    margin: 20px 40px 25px;
+}
+
+#Image5 {
+    float: left;
+    width: 274px;
+    margin: 20px 40px 25px;
+}
+
+.Image {
+    margin-bottom: 20px;
+    width: 274px;
+    height: 205.5px;
+    border-radius: 20px;
+}
+.Image:Hover{
+transform: scale(1.1);
+}
+
+.logoimage{
+    margin: 10px 0px 0px 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.footerimage{
+    width: 120px;
+    height: 150px;
+    border-radius: 20px;
+}
+.contactboxbackground {
+    margin: 110px 200px 0px 30px;
+    background: white;
+    padding: 20px;
+}
+
+
+.formbar {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: gray;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid gray;
+    border-radius: .25rem;
+    margin-top: 10px;
+}
+#bottomlinks{
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Viga', sans-serif;
+}
+.form {
+    margin: 20px 0px;
+}
+
+.formalert {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+#textbar {
+    height: auto;
+}
+
+.submit {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+@media screen and (max-width: 980px) {
+
+    .indexbackground {
+        margin: 20px 300px 0px 20px;
+
+    }
+
+    .contactboxbackground {
+        margin: 20px 300px 20px 20px;
+    }
+
+    .portfoliobackground {
+        margin: 20px 300px 20px 20px;
+    }
+
+    #Image1 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 20px 30px;
+    }
+
+    #Image2 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px 0px;
+    }
+
+    #Image3 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 20px 30px;
+    }
+
+    #Image4 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px 0px;
+    }
+
+    #Image5 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 20px 30px;
+    }
+
+    .Image {
+        margin-bottom: 20px;
+        position: relative;
+        width: 250px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .indexbackground {
+        margin: 20px;
+
+    }
+
+
+    .contactboxbackground {
+        margin: 30px;
+    }
+
+    .portfoliobackground {
+        margin: 20px;
+    }
+
+    #Image1 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+
+    #Image2 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px;
+    }
+
+    #Image3 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+
+    #Image4 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px;
+    }
+
+    #Image5 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+
+    .Image {
+        margin-bottom: 20px;
+        position: relative;
+        width: 274px;
+        height: 205.5px;
+    }
+}
+
+
+@media screen and (max-width:640px) {
+    h1 {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        float: none;
+
+    }
+
+    .navbar {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .indeximage {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .contactboxbackground {
+        margin: 20px 20px 20px 20px;
+    }
+
+    .portfoliobackground {
+        margin: 20px;
+    }
+
+    #Image1 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+
+    }
+
+    #Image2 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+    }
+
+    #Image3 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+    }
+
+    #Image4 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+    }
+
+    #Image5 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+    }
+
+    .Image {
+        margin-bottom: 20px;
+        position: relative;
+        width: 450px;
+        height: 400px;
+    }
+}
